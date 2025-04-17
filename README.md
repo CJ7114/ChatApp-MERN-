@@ -27,9 +27,8 @@ This is a real-time **chat application** built with the **MERN stack** (MongoDB,
 
 - Real-time messaging between users
 - User-friendly chat UI
-- Basic user join/leave notifications (if implemented)
-- Message timestamps (optional)
-- Persistent messages using MongoDB (optional)
+- Message timestamps 
+- Persistent messages using MongoDB 
 
 ## 📁 Project Setup
 
@@ -43,7 +42,7 @@ cd server
 npm install
 
 # Start the server
-node start
+npm start
 ```
 ###Frontend
 ```bash
@@ -57,8 +56,8 @@ npm i --legacy-peer-deps
 npm start
 ```
 App will be available on:
-Frontend – http://localhost:5173/ (or similar)
-Backend – http://localhost:5000/ (default)
+Frontend – http://localhost:3000/ 
+Backend – http://localhost:5000/ 
 
 🔌 WebSocket Flow
 Client connects to server using Socket.IO
@@ -79,3 +78,5 @@ Anyone who wants to build a chat app with MERN
 > **NOTE:**  
 > For both **Frontend** and **Backend**, a `Dockerfile` is provided.  
 > You can use Docker to containerize the app for easier deployment or testing across environments.
+> Make sure to **update the MongoDB connection URI** in the backend (`.env`) with your own credentials.  
+   -You can use [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) or a local MongoDB instance.
