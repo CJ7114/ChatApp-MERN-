@@ -11,7 +11,7 @@ This is a real-time **chat application** built with the **MERN stack** (MongoDB,
 - Structuring backend and frontend projects
 - Handling user input and rendering messages live
 
-## 🛠Tech Stack
+## Tech Stack
 
 **Frontend:**
 - React (with hooks)
@@ -23,7 +23,7 @@ This is a real-time **chat application** built with the **MERN stack** (MongoDB,
 - Socket.IO Server
 - MongoDB + Mongoose
 
-## ⚙Features
+## Features
 
 - Real-time messaging between users
 - User-friendly chat UI
