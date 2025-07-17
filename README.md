@@ -44,7 +44,8 @@ npm install
 # Start the server
 npm start
 ```
-###Frontend
+### Frontend
+
 ```bash
 # Navigate to frontend folder
 cd client
